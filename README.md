@@ -21,4 +21,4 @@ Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse
 Bonus
 
 Centralizziamo la Navbar usando un componente Layout
-Gestiamo la classe active per i link attivi nella Navbar
+Gestiamo la classe active per i link attivi nella Navba
