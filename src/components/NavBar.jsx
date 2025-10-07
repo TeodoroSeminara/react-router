@@ -10,7 +10,7 @@ const NavBar = () => {
 
     return (
         <nav>
-            <ul>
+            <ul className="navbar-list">
                 {links.map(link => (
                     <li>
                         <NavLink to={link.path}>{link.label} </NavLink>
