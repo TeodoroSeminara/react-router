@@ -22,6 +22,13 @@ li {
     list-style: none;
 }
 
+h1 {
+    text-align: center;
+    color: red;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
 /* Navbar */
 nav {
     background-color: #ffffff;
@@ -45,7 +52,7 @@ nav {
 
 /* Hover */
 .navbar-list li a:hover {
-    color: #6B9985;
+    color: #6bb394;
 }
 
 .navbar-list li a.active {
@@ -143,10 +150,49 @@ nav {
     margin-bottom: 0.5rem;
 }
 
-.card-body p:last-child {
-    font-weight: 600;
+.feed-text {
+    font-size: 0.8rem;
+}
+
+/* Details */
+
+.card-details {
+    width: 18rem;
+    background-color: #ffffff;
+    border: 1px solid #E0DDD8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin: 3rem 1rem;
+    ;
+}
+
+.card-details .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+.card-details img {
+    max-height: 280px;
+    object-fit: contain;
+}
+
+.price-text {
+    font-weight: 700;
     color: #D85C47;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+}
+
+.title-product {
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 
 /*  smartphone */

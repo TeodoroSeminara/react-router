@@ -9,6 +9,8 @@ import DefaultLayout from './layouts/DefaultLayout'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ProductPage from './pages/ProductsPage'
+import ProductDetails from './pages/ProductDetails'
+import PageNotFound from './pages/PageNotFound'
 
 function App() {
 
@@ -19,7 +21,11 @@ function App() {
         <Route element={<DefaultLayout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/product" element={<ProductPage />} />
+          <Route path="/product" >
+            <Route index element={<ProductPage />} />
+            <Route path=":id" element={<ProductDetails />} />
+          </Route>
+          <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

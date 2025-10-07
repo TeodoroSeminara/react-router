@@ -19,8 +19,6 @@ export default function ProductPage() {
         fetchProduct()
     }, [])
 
-
-
     return (
         <>
             <div className="container d-flex flex-wrap gap-3 justify-content-center">

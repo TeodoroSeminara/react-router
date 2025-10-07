@@ -22,3 +22,21 @@ Bonus
 
 Centralizziamo la Navbar usando un componente Layout
 Gestiamo la classe active per i link attivi nella Navba
+
+-------------
+Giorno 2 
+
+Consegna
+
+Completiamo il nostro routing aggiungendo la pagina di dettaglio prodotto!
+
+Obiettivi
+
+nella pagina Prodotti, ogni prodotto deve essere cliccabile (usa <Link>)
+Aggiungiamo la pagina di dettaglio per ogni prodotto, con le informazioni prese da https://fakestoreapi.com/products/:id
+Configuriamo il routing dinamico per leggere l’id del prodotto dalla URL
+
+Bonus
+Aggiungiamo una navigazione programmatica che riporti alla pagina di listato se viene cercato un prodotto che non esiste;
+Aggiungiamo una pagina 404;
+Aggiungiamo un loading per caricamento del dettaglio prodotto.
